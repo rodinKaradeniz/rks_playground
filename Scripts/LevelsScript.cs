@@ -22,12 +22,12 @@ public class LevelsScript : MonoBehaviour
         SceneManager.LoadScene(2);
     }
 
-        public void LoadLevel2()
+    public void LoadLevel2()
     {
         SceneManager.LoadScene(3);
     }
 
-        public void LoadLevel3()
+    public void LoadLevel3()
     {
         SceneManager.LoadScene(4);
     }
