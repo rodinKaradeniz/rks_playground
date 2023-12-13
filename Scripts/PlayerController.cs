@@ -76,5 +76,6 @@ public class PlayerController : MonoBehaviour
     void Jump()
     {
         myRb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+        myAnim.SetTrigger("Jumped");
     }
 }
