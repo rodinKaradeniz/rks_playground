@@ -7,6 +7,7 @@ public class PlayerController : MonoBehaviour
     public float jumpForce;
     public float moveSpeed;
     public bool isGrounded;
+    public Animator myAnim;
 
     private float inputX;
     private Rigidbody2D myRb;
@@ -20,9 +21,11 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         inputX = Input.GetAxis("Horizontal");
-        if (inputX != 0)
-        {
+        if (inputX != 0) {
             MovePlayer();
+            myAnim.SetBool("isRunning", true);
+        } else {
+            myAnim.SetBool("isRunning", false);
         }
 
         // Rotate the character depending on the direction of the movement.

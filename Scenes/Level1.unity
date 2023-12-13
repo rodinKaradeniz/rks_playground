@@ -1731,6 +1731,7 @@ MonoBehaviour:
   jumpForce: 20
   moveSpeed: 10
   isGrounded: 0
+  myAnim: {fileID: 700479241}
 --- !u!58 &1689938386
 CircleCollider2D:
   m_ObjectHideFlags: 0
