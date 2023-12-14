@@ -38,7 +38,7 @@ public class PlayerController : MonoBehaviour
             transform.localEulerAngles = new Vector3(0, 180, 0);
         }
 
-        if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
+        if (Input.GetKeyDown(KeyCode.UpArrow) && isGrounded)
         {
             Jump();
         }
