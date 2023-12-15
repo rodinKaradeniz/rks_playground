@@ -1,0 +1,4 @@
+TODO:
+- Level 2: fix camera follow speed and positioning
+- Level 2 Bug: Platforms disappear after moving away from a certain position.
+    Note: could be related to speed
